@@ -23,7 +23,7 @@
     <groupId>org.liveSense</groupId>
     <artifactId>org.liveSense.sample.configurationLoad</artifactId>
     <packaging>bundle</packaging>
-    <version>1.0.0</version>
+    <version>1.0.0-SNAPSHOT</version>
     <name>liveSense Configuration Load Sample</name>
     <description>liveSense Configuration Load sample
     </description>
@@ -61,7 +61,7 @@
 		</plugins>
     </build>
 	<profiles>
-				<profile>
+		<profile>
 			<id>git-push</id>
 			<build>
 				<plugins>
