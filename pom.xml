@@ -19,33 +19,27 @@
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
+  <parent>
+      <groupId>org.liveSense</groupId>
+      <artifactId>org.liveSense.parent</artifactId>
+      <version>1-SNAPSHOT</version>
+  </parent>
+  <scm>
+      <connection>scm:git:git://github.com/liveSense/org.liveSense.sample.configurationLoad.git</connection>
+      <developerConnection>scm:git:git://github.com/liveSense/org.liveSense.sample.configurationLoad.git</developerConnection>
+      <url>https://github.com/liveSense/org.liveSense.sample.configurationLoad</url>
+  </scm>
 
     <groupId>org.liveSense</groupId>
     <artifactId>org.liveSense.sample.configurationLoad</artifactId>
     <packaging>bundle</packaging>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <name>liveSense Configuration Load Sample</name>
     <description>liveSense Configuration Load sample
     </description>
 
     <build>
         <plugins>
-            <plugin>
-                <groupId>org.apache.sling</groupId>
-                <artifactId>maven-sling-plugin</artifactId>
-                <configuration>
-                    <executions>
-                        <execution>
-                            <id>install-bundle</id>
-                            <phase>install</phase>
-                            <goals>
-                                <goal>install</goal>
-                            </goals>
-                        </execution>
-                    </executions>
-                </configuration>
-            </plugin>
-
             <plugin>
                 <groupId>org.apache.felix</groupId>
                 <artifactId>maven-bundle-plugin</artifactId>
@@ -58,6 +52,6 @@
                     </instructions>
                 </configuration>
             </plugin>
-		</plugins>
+        </plugins>
     </build>
 </project>
