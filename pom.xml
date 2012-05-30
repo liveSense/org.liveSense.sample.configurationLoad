@@ -33,7 +33,7 @@
     <artifactId>org.liveSense.sample.configurationLoad</artifactId>
     <packaging>bundle</packaging>
     <version>1.0.1-SNAPSHOT</version>
-    <name>liveSense Configuration Load Sample</name>
+    <name>liveSense :: Sample :: Configuration Load Sample</name>
     <description>liveSense Configuration Load sample
     </description>
 
