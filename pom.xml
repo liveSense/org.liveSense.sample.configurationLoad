@@ -22,9 +22,11 @@
   <parent>
       <groupId>com.github.livesense</groupId>
       <artifactId>org.liveSense.parent</artifactId>
-      <version>2-SNAPSHOT</version>
+      <version>1.0.3</version>
 		<relativePath>..</relativePath>
   </parent>
+  <version>1.0.3-SNAPSHOT</version>
+
 	<scm>
 		<connection>scm:git:https://github.com/liveSense/org.liveSense.sample.configurationLoad.git</connection>
 		<developerConnection>scm:git:https://github.com/liveSense/org.liveSense.sample.configurationLoad.git</developerConnection>
@@ -33,7 +35,6 @@
 
     <artifactId>org.liveSense.sample.configurationLoad</artifactId>
     <packaging>bundle</packaging>
-    <version>1.0.1-SNAPSHOT</version>
     <name>liveSense :: Sample :: Configuration Load Sample</name>
     <description>liveSense Configuration Load sample
     </description>
